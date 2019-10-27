@@ -6,6 +6,8 @@
   "homepage": ".",
   "dependencies": {
     "electron": "^7.0.0",
+    "find-process": "^1.4.2",
+    "iohook": "^0.6.1",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
     "react-router-dom": "^5.1.2",

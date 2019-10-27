@@ -5856,7 +5856,12 @@
             transition: background-color 0.25s;
         }
 
-        .text-box-input-2558660473:focus {
+        .text-box-input-2558660473::placeholder {
+            color: #ddd;
+        }
+
+        .text-box-input-2558660473:focus,
+        .text-box-input-2558660473:focus::placeholder {
             color: black;
             background-color: white;
         }
