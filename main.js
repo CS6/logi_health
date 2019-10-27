@@ -48,11 +48,11 @@ app.on('activate', function () {
   }
 })
 
-{
-  let {detector, browseProcess, } = require("./detector");
-  detector.on("keydown", e => {
-    new Notification('鼠鍵健康操 1.0', {
-      body: '把食指放在『3』『0』鍵上長按，同時按下空白鍵吧！'
-    });
-  });
-}
+// {
+//   let {detector, browseProcess } = require("./detector");
+//   detector.on("keydown", e => {
+//     new Notification('鼠鍵健康操 1.0', {
+//       body: '把食指放在『3』『0』鍵上長按，同時按下空白鍵吧！'
+//     });
+//   });
+// }
